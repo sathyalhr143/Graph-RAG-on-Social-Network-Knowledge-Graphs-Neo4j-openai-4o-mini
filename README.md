@@ -79,4 +79,6 @@ MATCH (u:User)-[:FOLLOW]->(f:User {id: '19837'}) RETURN u
 
 \
 
-![Limitations of LLM Cypher Translation](Screenshot%202026-02-27%20at%201.20.39%E2%80%AFPM.png)
+
+
+(Screenshot%202026-02-27%20at%201.26.08%E2%80%AFPM.png)

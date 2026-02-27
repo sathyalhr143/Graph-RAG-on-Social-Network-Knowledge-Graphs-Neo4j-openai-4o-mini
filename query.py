@@ -60,6 +60,6 @@ chain = GraphCypherQAChain.from_llm(
 )
 
 # 4. Run a test query
-response = chain.invoke({"query": "how many users are following user 701?"})
+response = chain.invoke({"query": "do user 701 follow user 1377? give me yes or no if you know the answer."})
 
 print(response)
