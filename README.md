@@ -68,4 +68,6 @@ MATCH (u:User)-[:FOLLOW]->(f:User {id: '19837'}) RETURN u
 
 ## ⚠️ Notes
 *   If using Neo4j free Aura tier, ensure your `NEO4J_DATABASE` variable is set correctly in `.env` (it usually matches your instance ID or defaults to `neo4j`).
-*   The raw CSV data is added to `.gitignore` to prevent uploading large files to GitHub.
+
+* This project does not use any embeddings or vector stores. It uses Neo4j's native graph database to store and query the data.
+* This project does not yield complicated results as it is built on a small dataset. I aim to build a different project with the same dataset but with a different approach.
