@@ -75,3 +75,6 @@ MATCH (u:User)-[:FOLLOW]->(f:User {id: '19837'}) RETURN u
 
 ** Limitations **
 *  Since large language models are non-deterministic by nature, the main limitation of our approach is the reliability of the user query to Cypher query translation. 
+
+
+![Limitations of LLM Cypher Translation](Screenshot%202026-02-27%20at%201.17.58%E2%80%AFPM-1.png)
