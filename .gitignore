@@ -3,4 +3,5 @@
 __pycache__/
 *.pyc
 .DS_Store
-data/
+
+Neo4j-b98fda26-Created-2026-02-27.txt
