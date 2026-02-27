@@ -87,10 +87,10 @@ graph_doc = GraphDocument(
 
 # 4. Insert into Graph Database
 graph = Neo4jGraph(
-    url="neo4j+s://b98fda26.databases.neo4j.io", # Update with your Neo4j credentials
+    url=os.getenv("NEO4J_URI"), # Update with your Neo4j credentials
     username=os.getenv("NEO4J_USERNAME"), 
     password=os.getenv("NEO4J_PASSWORD"),
-    database="b98fda26"
+    database=os.getenv("NEO4J_DATABASE")
 )
 
 # Set baseEntityLabel to True if you want a generic '__Entity__' label on all nodes alongside 'User'
